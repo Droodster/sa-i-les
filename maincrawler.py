@@ -16,7 +16,7 @@ def extract_text(url):
 
 def summarize_with_openai(text):
     # replace with your own OpenAI API key
-    openai.api_key = "YOUR_API_KEY_HERE"
+    openai.api_key = "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"
 
     # generate a summary of the text using OpenAI's GPT-3 model
     response = openai.Completion.create(
